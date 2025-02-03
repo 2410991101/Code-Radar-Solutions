@@ -2,8 +2,8 @@
 int main() {
     int a;
     int b;
-    scanf("%u",a);
-    scanf("%u",b);
-    printf("%u",a|b);
+    scanf("%d",a);
+    scanf("%d",b);
+    printf("%d",a|b);
     return 0;
 }
