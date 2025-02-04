@@ -4,10 +4,10 @@ int main() {
     char ope;
     scanf("%d" "%d" "%c",&a,&b,&ope);
     if(ope == '+'){
-        printf("%d",a+b);
+        printf("%d + %d = %d",a,b,a+b);
     }
     else if(ope == '-'){
-        printf("%d",a-b);
+        printf("%d - %d = %d",a,b,a-b);
     }
     else if(ope == '*'){
         printf("%d",a*b);
