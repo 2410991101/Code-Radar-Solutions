@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // Function to generate Fibonacci series up to n terms
-void generateFibonacci(int n) {
+void fibonacciSeries(int n) {
     int first = 0, second = 1, next;
 
     // Print the first n Fibonacci numbers
