@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // Function to find the minimum length of the subarray to be sorted
-int findMinSubarrayLength(int arr[], int n) {
+int findUnsortedSubarray(int arr[], int n) {
     int start = -1, end = -1;
     int min = arr[n-1], max = arr[0];
 
