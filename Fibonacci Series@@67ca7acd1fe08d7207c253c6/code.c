@@ -11,7 +11,7 @@ void fibonacciSeries(int n) {
         return;
     }
 
-    printf("\n", n);
+    printf("", n);
 
     // Handle the first two terms
     if (n >= 1) {
