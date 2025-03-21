@@ -29,7 +29,7 @@ void selectionSort(char arr[][100], int n) {
 // Function to print the array of strings
 void printArray(char arr[][100], int size) {
     for (int i = 0; i < size; i++) {
-        printf("%s ", arr[i]);
+        printf("%s \n ", arr[i]);
     }
     printf("\n");
 }
