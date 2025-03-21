@@ -11,7 +11,7 @@ void fibonacciSeries(int n) {
         return;
     }
 
-    printf("Fibonacci Series up to %d terms: \n", n);
+    printf("\n", n);
 
     // Handle the first two terms
     if (n >= 1) {
