@@ -1,5 +1,5 @@
 // Your code here...
-void intersectionSort(char arr[],int n){
+void insertionSort(char arr[],int n){
     for(int i=1;i<n;i++){
         int key=arr[i];
         int j=i-1;
