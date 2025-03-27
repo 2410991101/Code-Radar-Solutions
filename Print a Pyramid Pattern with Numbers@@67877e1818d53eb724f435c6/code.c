@@ -3,15 +3,16 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int nst=1;
     for(int i=1;i<=n;i++){
-        for(int k=1;k<= n-i;k++){
+        for(int k=1;k<=n-i;k++){
             printf(" ");
         }
-        for(int j=1;j<=nst;j++){
-            printf("%d ",j);
+        for(int j=1;j<=i;j++){
+            printf("%d",j);
         }
-        nst = nst+2;
+        for(int q=i-1;q>=1;q--){
+            printf("%d",j);
+        }
         printf("\n");
     }
     return 0;
