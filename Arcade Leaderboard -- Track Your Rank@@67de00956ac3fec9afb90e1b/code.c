@@ -1,6 +1,6 @@
 // Your code here...
 void trackPlayerRanks(int ranked[],int n,int player[],int m,int result[]){
-    int uniqueRanked[200000],ranksize =0;
+    int uniqueRanked[200000],ranksize = 0;
     uniqueRanked[ranksize++] = ranked{0};
     for(int i=1;i<n;i++){
         if(ranked[i] != ranked[i-1]){
