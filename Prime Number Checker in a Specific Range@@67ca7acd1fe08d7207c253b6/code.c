@@ -11,9 +11,11 @@ int isPrime(int num){
     return 1; 
 }
 void printPrimesInRange(int a,int b){
+    int found=o;
     for(int i=a;i<=b;i++){
         if(isPrime(i)){
             printf("%d ",i);
+            found =1;
         }
     }
     if(!found){
