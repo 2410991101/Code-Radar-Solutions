@@ -32,7 +32,7 @@ int main()
     {
         if(freq[i] != 0)
         {
-            printf("%d ", freq[i]);
+            printf("%d %d\n",arr[i],freq[i]);
         }
     }
 
