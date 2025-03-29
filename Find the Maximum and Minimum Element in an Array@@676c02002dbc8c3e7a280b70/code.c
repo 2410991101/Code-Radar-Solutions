@@ -42,8 +42,8 @@ int main()
     }
 
     /* Print maximum and minimum element */
-    printf("Maximum element = %d\n", max);
-    printf("Minimum element = %d", min);
+    printf("%d", max);
+    printf("%d", min);
 
     return 0;
 }
