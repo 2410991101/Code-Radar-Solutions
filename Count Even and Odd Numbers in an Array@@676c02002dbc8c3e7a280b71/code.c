@@ -2,7 +2,8 @@
 #include<stdio.h>
 #define MAX_SIZE 100
 int main(){
-    int n,arr[MAX_SIZE],even,odd;
+    int arr[MAX_SIZE];
+    int n,even,odd;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",arr[i]);
