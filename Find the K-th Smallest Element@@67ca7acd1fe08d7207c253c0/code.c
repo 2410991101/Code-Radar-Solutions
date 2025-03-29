@@ -14,6 +14,9 @@ void selectionsort(int arr[],int n){
     }
 }
 int kthSmallest(int arr[],int n,int k){
+    if(k<1 || k>n){
+        printf("-1");
+    }
     selectionsort(arr,n);
     return arr[k-1];
 }
