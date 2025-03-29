@@ -3,7 +3,7 @@ selectionsort(int arr[],int n){
     int minindex,temp;
     for(int i=0;i<n;i++){
         minindex=1;
-        for(j=0;j<n;j++){
+        for(int j=0;j<n;j++){
             if(arr[j]<arr[minindex]){
                 minindex=j;
             }
