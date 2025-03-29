@@ -19,6 +19,6 @@ int main(){
             max2=arr[i];
         }
     }
-    printf("%d %d",max1,max2);
+    printf("%d",max1);
     return 0;
 }
